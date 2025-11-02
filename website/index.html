@@ -1,1 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shoracious — where grace meets grit</title>
+  <meta name="description" content="Shoracious — minimalist, timeless apparel where grace meets grit." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/logo.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <img src="images/logo.png" alt="Shoracious logo" class="logo" />
+        <span class="brand-name">Shoracious</span>
+      </a>
+      <nav class="nav">
+        <a href="#shop">Shop</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Shoracious</h1>
+          <p class="tagline">where grace meets grit</p>
+          <p class="lead">Minimalist. Timeless. Crafted for movement and moments.</p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn primary">Shop the edit</a>
+            <a href="#lookbook" class="btn ghost">Explore lookbook</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Shoracious clothing hero" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="container">
+        <h2 class="section-title">Shop the Edit</h2>
+        <p class="section-sub">A curated selection — versatile pieces to build a signature wardrobe.</p>
+        <div class="products-grid" id="products">
+          <!-- Product cards injected by script (or paste static cards here) -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="lookbook">
+      <div class="container">
+        <h2 class="section-title">Lookbook</h2>
+        <div class="lookbook-grid">
+          <img src="images/look1.jpg" alt="Look 1" />
+          <img src="images/look2.jpg" alt="Look 2" />
+          <img src="images/look3.jpg" alt="Look 3" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title">About Shoracious</h2>
+          <p>Shoracious blends refined silhouettes with purposeful durability. We design for everyday confidence — garments that look effortless and stand up to life’s pace.</p>
+          <ul class="bullets">
+            <li><strong>Thoughtful materials</strong> — curated textiles for comfort and longevity</li>
+            <li><strong>Clean design</strong> — minimal lines, maximum versatility</li>
+            <li><strong>Sustainable choices</strong> — small runs, mindful sourcing</li>
+          </ul>
+        </div>
+        <div class="brand-quote">
+          <blockquote>where grace meets grit</blockquote>
+          <p class="micro">— Shoracious</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>If you have questions, collaborations, or wholesale inquiries, reach out below.</p>
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send message</button>
+            <a class="btn ghost" href="mailto:hello@shoracious.com">Email directly</a>
+          </div>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="left">© <span id="year"></span> Shoracious</div>
+      <div class="right">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
